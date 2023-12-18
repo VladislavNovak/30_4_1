@@ -15,17 +15,7 @@ FetchContent_MakeAvailable(cpr)
 FetchContent_Declare(json URL https://github.com/nlohmann/json/releases/download/v3.11.2/json.tar.xz)
 FetchContent_MakeAvailable(json)
 
-
-add_executable(30_4_1 main.cpp
-        cpr_requests.cpp
-        cpr_requests.h
-        cpr_requests.h
-        constants.h
-        utilities.cpp
-        utilities.h
-        utilities.h)
-
-#target_include_directories(30_4_1 PUBLIC ${CMAKE_SOURCE_DIR}/headers)
+add_subdirectory(src)
 
 target_link_libraries(30_4_1 PRIVATE cpr::cpr)
 target_link_libraries(30_4_1 PRIVATE nlohmann_json::nlohmann_json)

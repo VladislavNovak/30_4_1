@@ -1,8 +1,8 @@
 #include <iostream>
 #include <nlohmann/json.hpp>
-#include "constants.h"
-#include "utilities.h"
-#include "cpr_requests.h"
+#include "headers/constants.h"
+#include "headers/utilities.h"
+#include "headers/cpr_requests.h"
 
 using std::cout;
 using std::endl;
