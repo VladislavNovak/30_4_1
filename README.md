@@ -44,8 +44,7 @@ target_link_libraries(30_4_1 PRIVATE cpr::cpr)
 target_link_libraries(30_4_1 PRIVATE nlohmann_json::nlohmann_json)
 ```
 
-В рамках тренировки работы с библиотеками, установим несколько.
-Во-первых, это [nlohmann](https://json.nlohmann.me/integration/cmake/#supporting-both), 
+В рамках тренировки работы с библиотеками, установим [nlohmann](https://json.nlohmann.me/integration/cmake/#supporting-both), 
 которая упрощает работу с файлами json.
 
 
